@@ -1,0 +1,17 @@
+# Secrets - NEVER commit
+.env
+.env.*
+!.env.example
+**/.env
+
+# Dependencies
+node_modules/
+server/node_modules/
+
+# Scratch files
+temp*.txt
+temp_transcript.txt
+
+*.env
+server/.env
+
